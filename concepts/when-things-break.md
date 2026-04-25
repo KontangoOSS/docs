@@ -1,8 +1,3 @@
-+++
-title = "When Things Break"
-weight = 7
-+++
-
 ## What NOT to do
 
 - **Don't disable or uninstall the agent.** It's how everything works. Removing it doesn't fix anything; it just guarantees you can't reach internal services until you re-enroll.

@@ -1,8 +1,3 @@
-+++
-title = "Getting Help"
-weight = 8
-+++
-
 # Getting Help
 
 When something's wrong and the [troubleshooting page](when-things-break) hasn't fixed it, here's how to get a person involved and what to send them.

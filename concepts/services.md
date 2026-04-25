@@ -1,8 +1,3 @@
-+++
-title = "Services"
-weight = 5
-+++
-
 # Services
 
 ## What a service is

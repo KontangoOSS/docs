@@ -1,8 +1,3 @@
-+++
-title = "Concepts"
-weight = 2
-+++
-
 # Core Concepts
 
 This section explains what Kontango actually is, in plain language. Each page is short and answers one question.

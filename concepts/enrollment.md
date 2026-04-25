@@ -1,8 +1,3 @@
-+++
-title = "Enrolling a Device"
-weight = 3
-+++
-
 # Enrolling a Device
 
 ## What enrollment actually is

@@ -1,8 +1,3 @@
-+++
-title = "What Is Kontango?"
-weight = 1
-+++
-
 # What Is Kontango?
 
 ## The one-sentence version

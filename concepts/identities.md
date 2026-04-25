@@ -1,8 +1,3 @@
-+++
-title = "Identities"
-weight = 4
-+++
-
 # Identities
 
 ## What an identity is

@@ -1,8 +1,3 @@
-+++
-title = "The Network"
-weight = 2
-+++
-
 # The Network
 
 ## What the network is for

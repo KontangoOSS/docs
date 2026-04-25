@@ -1,8 +1,3 @@
-+++
-title = "Policy"
-weight = 6
-+++
-
 # Policy
 
 ## What policy is
