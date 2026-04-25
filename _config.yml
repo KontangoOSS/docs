@@ -1,5 +1,7 @@
 title: Kontango Docs
 description: Open-source platform for running your own cloud on hardware you own.
+url: "https://kontangooss.github.io"
+baseurl: "/docs"
 remote_theme: just-the-docs/just-the-docs
 
 color_scheme: dark
