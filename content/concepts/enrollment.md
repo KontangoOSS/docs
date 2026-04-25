@@ -1,8 +1,7 @@
----
-title: "Enrolling a Device"
-parent: Concepts
-nav_order: 3
----
++++
+title = "Enrolling a Device"
+weight = 3
++++
 
 # Enrolling a Device
 

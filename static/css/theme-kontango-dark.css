@@ -1,0 +1,95 @@
+/* Kontango dark theme variant — matches the marketing site palette */
+:root {
+  --PRIMARY-color: #4a9eff;
+  --SECONDARY-color: #2563eb;
+  --ACCENT-color: #4a9eff;
+
+  --MAIN-TEXT-color: #fafafa;
+  --MAIN-TITLES-TEXT-color: #fafafa;
+  --MAIN-LINK-color: #4a9eff;
+  --MAIN-LINK-HOVER-color: #93c5fd;
+  --MAIN-ANCHOR-color: #4a9eff;
+
+  --MAIN-BG-color: #0a0a0f;
+  --MENU-HEADER-BG-color: #141419;
+  --MENU-HEADER-BORDER-color: #27272a;
+  --MENU-HOME-LINK-color: #fafafa;
+  --MENU-HOME-LINK-HOVER-color: #4a9eff;
+
+  --MENU-SEARCH-BG-color: #141419;
+  --MENU-SEARCH-BOX-color: #27272a;
+  --MENU-SEARCH-BOX-ICONS-color: #a1a1aa;
+
+  --MENU-SECTIONS-BG-color: #0a0a0f;
+  --MENU-SECTIONS-LINK-color: #a1a1aa;
+  --MENU-SECTIONS-LINK-HOVER-color: #fafafa;
+  --MENU-SECTIONS-ACTIVE-BG-color: #1a1a22;
+  --MENU-SECTION-ACTIVE-CATEGORY-color: #fafafa;
+  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #141419;
+
+  --MENU-VISITED-color: #4a9eff;
+  --MENU-SECTION-HR-color: #27272a;
+
+  --CODE-BLOCK-color: #e4e4e7;
+  --CODE-BLOCK-BG-color: #141419;
+  --CODE-BLOCK-BORDER-color: #27272a;
+
+  --TAG-BG-color: #141419;
+}
+
+/* Body and content */
+body {
+  background-color: var(--MAIN-BG-color);
+  color: var(--MAIN-TEXT-color);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+#body #breadcrumbs,
+#body #breadcrumbs a {
+  color: #a1a1aa;
+}
+
+/* Main content links */
+#body-inner a {
+  color: var(--MAIN-LINK-color);
+}
+#body-inner a:hover {
+  color: var(--MAIN-LINK-HOVER-color);
+}
+
+/* Code styling */
+#body-inner code,
+#body-inner pre {
+  background: var(--CODE-BLOCK-BG-color);
+  border: 1px solid var(--CODE-BLOCK-BORDER-color);
+  color: var(--CODE-BLOCK-color);
+}
+
+/* Tables */
+#body-inner table {
+  border-color: #27272a;
+}
+#body-inner table th {
+  background: #141419;
+  color: var(--MAIN-TEXT-color);
+}
+#body-inner table td {
+  border-color: #27272a;
+}
+
+/* Block quotes */
+#body-inner blockquote {
+  border-left: 4px solid var(--PRIMARY-color);
+  background: #141419;
+  color: #a1a1aa;
+}
+
+/* Headings get a touch of accent */
+#body-inner h1 {
+  color: var(--MAIN-TITLES-TEXT-color);
+  border-bottom: 1px solid #27272a;
+  padding-bottom: 0.3em;
+}
+#body-inner h2 {
+  color: var(--MAIN-TITLES-TEXT-color);
+}

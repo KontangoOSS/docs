@@ -1,8 +1,7 @@
----
-title: "Policy"
-parent: Concepts
-nav_order: 6
----
++++
+title = "Policy"
+weight = 6
++++
 
 # Policy
 

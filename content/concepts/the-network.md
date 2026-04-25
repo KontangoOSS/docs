@@ -1,8 +1,7 @@
----
-title: "The Network"
-parent: Concepts
-nav_order: 2
----
++++
+title = "The Network"
+weight = 2
++++
 
 # The Network
 

@@ -1,0 +1,65 @@
+baseURL = "https://kontangooss.github.io/docs/"
+title = "Kontango Docs"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+# Use the Relearn theme via remote module
+theme = ["github.com/McShelby/hugo-theme-relearn"]
+
+# Pretty URLs (no .html)
+uglyURLs = false
+
+# Pages without explicit menu config still appear
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  # Branding
+  description = "Open-source platform for running your own cloud on hardware you own."
+
+  # Theme — start in dark mode matching the marketing site palette
+  themeVariant = "kontango-dark"
+
+  # Hide the "edit this page" link unless we wire it up
+  disableEditLink = false
+  editURL = "https://github.com/KontangoOSS/docs/edit/main/content/"
+
+  # Search
+  disableSearch = false
+  disableSeoHiddenPages = true
+
+  # Show the table of contents on each page
+  disableTagHrefs = false
+
+  # Friendly defaults
+  disableAssetsBusting = false
+  ordersectionsby = "weight"
+
+  # Footer
+  customRestrictedShortcodes = []
+
+[outputs]
+  home = ["html", "rss", "search"]
+
+# Top-right buttons (Relearn calls these "menus")
+[[menu.shortcuts]]
+  name = "<i class='fab fa-github'></i> GitHub"
+  url = "https://github.com/KontangoOSS/docs"
+  weight = 10
+
+[[menu.shortcuts]]
+  name = "<i class='fab fa-discord'></i> Discord"
+  url = "https://discord.gg/CrXWJfwD"
+  weight = 11
+
+[[menu.shortcuts]]
+  name = "<i class='fas fa-globe'></i> kontango.io"
+  url = "https://kontangooss.github.io/site/"
+  weight = 20
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false

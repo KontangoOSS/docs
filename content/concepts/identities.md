@@ -1,8 +1,7 @@
----
-title: "Identities"
-parent: Concepts
-nav_order: 4
----
++++
+title = "Identities"
+weight = 4
++++
 
 # Identities
 

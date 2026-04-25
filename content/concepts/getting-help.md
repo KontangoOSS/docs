@@ -1,8 +1,7 @@
----
-title: "Getting Help"
-parent: Concepts
-nav_order: 8
----
++++
+title = "Getting Help"
+weight = 8
++++
 
 # Getting Help
 

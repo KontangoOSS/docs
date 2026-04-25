@@ -1,8 +1,7 @@
----
-title: "What Is Kontango?"
-parent: Concepts
-nav_order: 1
----
++++
+title = "What Is Kontango?"
+weight = 1
++++
 
 # What Is Kontango?
 

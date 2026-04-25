@@ -1,8 +1,7 @@
----
-title: "Services"
-parent: Concepts
-nav_order: 5
----
++++
+title = "Services"
+weight = 5
++++
 
 # Services
 

@@ -1,9 +1,7 @@
----
-title: Concepts
-nav_order: 2
-has_children: true
-has_toc: false
----
++++
+title = "Concepts"
+weight = 2
++++
 
 # Core Concepts
 
