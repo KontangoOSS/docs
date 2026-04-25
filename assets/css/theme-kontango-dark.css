@@ -1,95 +1,56 @@
-/* Kontango dark theme variant — matches the marketing site palette */
+/* Kontango dark variant — based on relearn-dark, repainted with the
+   Kontango marketing palette: #0a0a0f bg, #4a9eff accent, #fafafa text. */
+
 :root {
-  --PRIMARY-color: #4a9eff;
-  --SECONDARY-color: #2563eb;
-  --ACCENT-color: #4a9eff;
+  /* Kontango brand */
+  --PRIMARY-color:                      rgba( 74, 158, 255, 1 );  /* #4a9eff */
+  --PRIMARY-HOVER-color:                rgba( 147, 197, 253, 1 ); /* #93c5fd */
+  --SECONDARY-color:                    rgba( 37, 99, 235, 1 );   /* #2563eb */
+  --SECONDARY-HOVER-color:              rgba( 74, 158, 255, 1 );
+  --ACCENT-color:                       rgba( 74, 158, 255, 1 );
+  --ACCENT-HOVER-color:                 rgba( 147, 197, 253, 1 );
 
-  --MAIN-TEXT-color: #fafafa;
-  --MAIN-TITLES-TEXT-color: #fafafa;
-  --MAIN-LINK-color: #4a9eff;
-  --MAIN-LINK-HOVER-color: #93c5fd;
-  --MAIN-ANCHOR-color: #4a9eff;
+  /* Sidebar header */
+  --MENU-HEADER-color:                  rgba( 20, 20, 25, 1 );    /* #141419 */
+  --MENU-SEARCH-color:                  rgba( 250, 250, 250, 1 ); /* #fafafa */
+  --MENU-SEARCH-BG-color:               rgba( 20, 20, 25, 1 );
+  --MENU-SEARCH-BORDER-color:           rgba( 39, 39, 42, 1 );    /* #27272a */
 
-  --MAIN-BG-color: #0a0a0f;
-  --MENU-HEADER-BG-color: #141419;
-  --MENU-HEADER-BORDER-color: #27272a;
-  --MENU-HOME-LINK-color: #fafafa;
-  --MENU-HOME-LINK-HOVER-color: #4a9eff;
+  /* Sidebar home button */
+  --MENU-HOME-LINK-color:               rgba( 250, 250, 250, 1 );
+  --MENU-HOME-LINK-HOVER-color:         rgba( 74, 158, 255, 1 );
 
-  --MENU-SEARCH-BG-color: #141419;
-  --MENU-SEARCH-BOX-color: #27272a;
-  --MENU-SEARCH-BOX-ICONS-color: #a1a1aa;
+  /* Sidebar body */
+  --MENU-SECTIONS-BG-color:             rgba( 14, 14, 19, 1 );
+  --MENU-SECTIONS-ACTIVE-BG-color:      rgba( 26, 26, 34, 1 );    /* #1a1a22 */
+  --MENU-SECTIONS-LINK-color:           rgba( 161, 161, 170, 1 ); /* #a1a1aa */
+  --MENU-SECTIONS-LINK-HOVER-color:     rgba( 250, 250, 250, 1 );
+  --MENU-SECTION-ACTIVE-CATEGORY-color: rgba( 74, 158, 255, 1 );
+  --MENU-SECTION-SEPARATOR-color:       rgba( 39, 39, 42, 1 );
+  --MENU-VISITED-color:                 rgba( 74, 158, 255, 1 );
 
-  --MENU-SECTIONS-BG-color: #0a0a0f;
-  --MENU-SECTIONS-LINK-color: #a1a1aa;
-  --MENU-SECTIONS-LINK-HOVER-color: #fafafa;
-  --MENU-SECTIONS-ACTIVE-BG-color: #1a1a22;
-  --MENU-SECTION-ACTIVE-CATEGORY-color: #fafafa;
-  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #141419;
+  /* Main content area */
+  --MAIN-BG-color:                      rgba( 10, 10, 15, 1 );    /* #0a0a0f */
+  --MAIN-TEXT-color:                    rgba( 250, 250, 250, 1 );
+  --MAIN-TITLES-TEXT-color:             rgba( 250, 250, 250, 1 );
 
-  --MENU-VISITED-color: #4a9eff;
-  --MENU-SECTION-HR-color: #27272a;
+  /* Code styling */
+  --CODE-theme:                         relearn-dark;
+  --CODE-BLOCK-color:                   rgba( 228, 228, 231, 1 ); /* #e4e4e7 */
+  --CODE-BLOCK-BG-color:                rgba( 20, 20, 25, 1 );
+  --CODE-BLOCK-BORDER-color:            rgba( 39, 39, 42, 1 );
+  --CODE-INLINE-color:                  rgba( 74, 158, 255, 1 );
+  --CODE-INLINE-BG-color:               rgba( 20, 20, 25, 1 );
+  --CODE-INLINE-BORDER-color:           rgba( 39, 39, 42, 1 );
 
-  --CODE-BLOCK-color: #e4e4e7;
-  --CODE-BLOCK-BG-color: #141419;
-  --CODE-BLOCK-BORDER-color: #27272a;
+  /* Browser scrollbars + integrations */
+  --BROWSER-theme:                      dark;
+  --MERMAID-theme:                      dark;
+  --OPENAPI-theme:                      dark;
+  --OPENAPI-CODE-theme:                 obsidian;
 
-  --TAG-BG-color: #141419;
-}
-
-/* Body and content */
-body {
-  background-color: var(--MAIN-BG-color);
-  color: var(--MAIN-TEXT-color);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-}
-
-#body #breadcrumbs,
-#body #breadcrumbs a {
-  color: #a1a1aa;
-}
-
-/* Main content links */
-#body-inner a {
-  color: var(--MAIN-LINK-color);
-}
-#body-inner a:hover {
-  color: var(--MAIN-LINK-HOVER-color);
-}
-
-/* Code styling */
-#body-inner code,
-#body-inner pre {
-  background: var(--CODE-BLOCK-BG-color);
-  border: 1px solid var(--CODE-BLOCK-BORDER-color);
-  color: var(--CODE-BLOCK-color);
-}
-
-/* Tables */
-#body-inner table {
-  border-color: #27272a;
-}
-#body-inner table th {
-  background: #141419;
-  color: var(--MAIN-TEXT-color);
-}
-#body-inner table td {
-  border-color: #27272a;
-}
-
-/* Block quotes */
-#body-inner blockquote {
-  border-left: 4px solid var(--PRIMARY-color);
-  background: #141419;
-  color: #a1a1aa;
-}
-
-/* Headings get a touch of accent */
-#body-inner h1 {
-  color: var(--MAIN-TITLES-TEXT-color);
-  border-bottom: 1px solid #27272a;
-  padding-bottom: 0.3em;
-}
-#body-inner h2 {
-  color: var(--MAIN-TITLES-TEXT-color);
+  /* Admonition / alert boxes */
+  --BOX-CAPTION-color:                  rgba( 250, 250, 250, 1 );
+  --BOX-BG-color:                       rgba( 20, 20, 25, 1 );
+  --BOX-TEXT-color:                     rgba( 224, 224, 224, 1 );
 }
