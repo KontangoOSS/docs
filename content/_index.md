@@ -1,8 +1,7 @@
----
-title: Home
-layout: home
-nav_order: 1
----
++++
+title = "Kontango Docs"
+description = "Open-source platform for running your own cloud on hardware you own."
++++
 
 # Kontango Documentation
 

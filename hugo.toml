@@ -13,32 +13,17 @@ uglyURLs = false
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  # Branding
-  description = "Open-source platform for running your own cloud on hardware you own."
-
   # Theme — start in dark mode matching the marketing site palette
   themeVariant = "kontango-dark"
 
-  # Hide the "edit this page" link unless we wire it up
-  disableEditLink = false
+  # Edit this page link
   editURL = "https://github.com/KontangoOSS/docs/edit/main/content/"
 
-  # Search
-  disableSearch = false
-  disableSeoHiddenPages = true
-
-  # Show the table of contents on each page
-  disableTagHrefs = false
-
-  # Friendly defaults
-  disableAssetsBusting = false
+  # Order sections by weight value in front matter
   ordersectionsby = "weight"
 
-  # Footer
-  customRestrictedShortcodes = []
-
-[outputs]
-  home = ["html", "rss", "search"]
+[params.search]
+  disable = false
 
 # Top-right buttons (Relearn calls these "menus")
 [[menu.shortcuts]]
