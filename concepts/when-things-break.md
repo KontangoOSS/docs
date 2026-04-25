@@ -1,3 +1,9 @@
+---
+title: "When Things Break"
+parent: Concepts
+nav_order: 7
+---
+
 # When Things Break
 
 This is the page to read when something isn't working. It lists the symptoms you're most likely to see, what each one usually means, and what to try before contacting support.
@@ -32,7 +38,7 @@ A note: some Kontango deployments serve a fake browser-error page to anyone who 
 
 ## A specific service won't load — but others do
 
-**What it means:** This is almost always a [policy](policy.md) issue. Your device is fine, the network is fine, but you don't have a role that lets you reach this particular service.
+**What it means:** This is almost always a [policy](policy) issue. Your device is fine, the network is fine, but you don't have a role that lets you reach this particular service.
 
 **What to try:**
 
@@ -83,6 +89,6 @@ These are okay to try on your own:
 
 ## Where to next
 
-- [Where help comes from](getting-help.md) — what to send when you need a person
-- [Policy](policy.md) — to understand "why am I denied"
-- [Enrolling a device](enrollment.md) — if your enrollment really is broken
+- [Where help comes from](getting-help) — what to send when you need a person
+- [Policy](policy) — to understand "why am I denied"
+- [Enrolling a device](enrollment) — if your enrollment really is broken

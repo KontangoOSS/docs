@@ -1,3 +1,9 @@
+---
+title: "Policy"
+parent: Concepts
+nav_order: 6
+---
+
 # Policy
 
 ## What policy is
@@ -14,9 +20,9 @@ Imagine a venue with several private rooms. Getting through the front door is ju
 
 In Kontango terms:
 
-- You at the door = your [device's identity](identities.md)
+- You at the door = your [device's identity](identities)
 - Your card = your certificate, plus the **role tags** attached to your identity
-- Each room = a [service](services.md)
+- Each room = a [service](services)
 - The room's list = the policy that says which roles are allowed in
 - The door staff = the controller, checking every time you knock
 
@@ -53,7 +59,7 @@ This is the most common policy question. The likely causes, in order of frequenc
 
 1. **You're at a stage that doesn't include `git.tango`.** Stage 0 and Stage 1 don't normally have it; Stage 2 does. Ask to be promoted to Stage 2.
 2. **The service's policy was tightened.** Sometimes a service is restricted to a specific role and your device isn't in that role yet. Ask the admin to add the role.
-3. **The agent on your device isn't running.** Not actually a policy problem — a quick service status check will tell you. See [When things break](when-things-break.md).
+3. **The agent on your device isn't running.** Not actually a policy problem — a quick service status check will tell you. See [When things break](when-things-break).
 
 In all three cases, the fix is the same: tell the admin what you can't reach. They'll check both your roles and the service's policy and either fix it or explain why you shouldn't have access.
 
@@ -65,6 +71,6 @@ This is why a brand-new enrollment often has very limited access. There aren't m
 
 ## Where to next
 
-- [Services](services.md) — the things policies grant or deny access to
-- [Identities](identities.md) — the things policies are written about
-- [When things break](when-things-break.md) — distinguishing policy denials from network failures
+- [Services](services) — the things policies grant or deny access to
+- [Identities](identities) — the things policies are written about
+- [When things break](when-things-break) — distinguishing policy denials from network failures

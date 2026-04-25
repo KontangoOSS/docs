@@ -1,6 +1,12 @@
+---
+title: "Getting Help"
+parent: Concepts
+nav_order: 8
+---
+
 # Getting Help
 
-When something's wrong and the [troubleshooting page](when-things-break.md) hasn't fixed it, here's how to get a person involved and what to send them.
+When something's wrong and the [troubleshooting page](when-things-break) hasn't fixed it, here's how to get a person involved and what to send them.
 
 Kontango is open source, but help is paid work. The same way RedHat ships free software and sells support, anyone running Kontango can either operate it themselves using the docs and community, or pay for hands-on help — deployment, on-call, custom services, training. Both paths are real. Neither is hidden behind the other.
 
@@ -81,5 +87,5 @@ Discord is generally faster than email for casual questions; email is the right 
 
 ## Where to next
 
-- [When things break](when-things-break.md) — try this first
-- [The eight concepts](index.md) — useful background if you're new
+- [When things break](when-things-break) — try this first
+- [The eight concepts](index) — useful background if you're new

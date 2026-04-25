@@ -1,3 +1,10 @@
+---
+title: Concepts
+nav_order: 2
+has_children: true
+has_toc: false
+---
+
 # Core Concepts
 
 This section explains what Kontango actually is, in plain language. Each page is short and answers one question.
@@ -12,11 +19,11 @@ Kontango is open-source software for running your own cloud on hardware you own.
 
 Read in order if you're new. Skip around if you know what you're looking for.
 
-1. **[What is Kontango?](what-is-kontango.md)** — One paragraph, two paragraphs, and three examples
-2. **[The network](the-network.md)** — What "the Kontango network" means, and what it isn't
-3. **[Enrolling a device](enrollment.md)** — What happens when you add your laptop
-4. **[Identities](identities.md)** — What "identity" means for a device, person, or service
-5. **[Services](services.md)** — What you actually connect *to* on the network
-6. **[Policy](policy.md)** — Who is allowed to talk to what, and why
-7. **[When things break](when-things-break.md)** — What you'll see, what it means, what to try
-8. **[Where help comes from](getting-help.md)** — Who to contact, what to include
+1. **[What is Kontango?](what-is-kontango)** — One paragraph, two paragraphs, and three examples
+2. **[The network](the-network)** — What "the Kontango network" means, and what it isn't
+3. **[Enrolling a device](enrollment)** — What happens when you add your laptop
+4. **[Identities](identities)** — What "identity" means for a device, person, or service
+5. **[Services](services)** — What you actually connect *to* on the network
+6. **[Policy](policy)** — Who is allowed to talk to what, and why
+7. **[When things break](when-things-break)** — What you'll see, what it means, what to try
+8. **[Where help comes from](getting-help)** — Who to contact, what to include

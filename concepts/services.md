@@ -1,10 +1,16 @@
+---
+title: "Services"
+parent: Concepts
+nav_order: 5
+---
+
 # Services
 
 ## What a service is
 
 A service is a thing on the network that you connect *to*. Apps, dashboards, code repositories, databases, SSH targets — anything you reach across the network is a service.
 
-If an [identity](identities.md) is "who I am," a service is "what I'm trying to reach."
+If an [identity](identities) is "who I am," a service is "what I'm trying to reach."
 
 Services are how the platform earns its keep. The reason to run Kontango is so that the things you'd otherwise pay a SaaS for — git hosting, CI, secrets, monitoring, ticketing — can run on your own hardware, on your own terms, reachable from anywhere you happen to be working that day.
 
@@ -21,7 +27,7 @@ A typical Kontango deployment will host services like these. The exact list is u
 | `tickets.tango` | An internal ticketing system |
 | `ssh-<host>` | SSH access to any node |
 
-You add a service by registering it on the network and pointing it at where the underlying app actually runs. From then on, anyone with the right [policy](policy.md) can reach it at the `.tango` address.
+You add a service by registering it on the network and pointing it at where the underlying app actually runs. From then on, anyone with the right [policy](policy) can reach it at the `.tango` address.
 
 ## Internal vs. public
 
@@ -47,6 +53,6 @@ If you operate the platform, you can list services through the admin tools. As a
 
 ## Where to next
 
-- [Identities](identities.md) — the other side of the connection
-- [Policy](policy.md) — what determines whether you can reach a given service
-- [When things break](when-things-break.md) — what to do when a service won't load
+- [Identities](identities) — the other side of the connection
+- [Policy](policy) — what determines whether you can reach a given service
+- [When things break](when-things-break) — what to do when a service won't load

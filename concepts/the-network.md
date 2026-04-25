@@ -1,3 +1,9 @@
+---
+title: "The Network"
+parent: Concepts
+nav_order: 2
+---
+
 # The Network
 
 ## What the network is for
@@ -61,6 +67,6 @@ A Kontango deployment is typically a 3-node high-availability cluster on hardwar
 
 ## Where to next
 
-- [Enrolling a device](enrollment.md) — how a device gets the key
-- [Services](services.md) — what's in the rooms
-- [Policy](policy.md) — who's allowed in which room
+- [Enrolling a device](enrollment) — how a device gets the key
+- [Services](services) — what's in the rooms
+- [Policy](policy) — who's allowed in which room

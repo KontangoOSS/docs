@@ -1,3 +1,9 @@
+---
+title: "Enrolling a Device"
+parent: Concepts
+nav_order: 3
+---
+
 # Enrolling a Device
 
 ## What enrollment actually is
@@ -88,7 +94,7 @@ Three things start working that didn't before:
 
 1. **A background agent is running.** It's the thing that holds your certificate and routes traffic to `.tango` addresses. You won't see it in normal operation, but a quick service status check will show it.
 2. **`.tango` addresses resolve.** Type `git.tango` in your browser, run `ssh your-host`, point your git client at `git@git.tango` — it all just works.
-3. **You're now a participant on the network.** You have an identity (see [Identities](identities.md)), and policies will start applying to your device.
+3. **You're now a participant on the network.** You have an identity (see [Identities](identities)), and policies will start applying to your device.
 
 ## Is it safe?
 
@@ -101,6 +107,6 @@ Reasonable question. The honest answers:
 
 ## Where to next
 
-- [Identities](identities.md) — what your device's identity actually is
-- [Policy](policy.md) — what the device can and can't reach, and why
-- [When things break](when-things-break.md) — what to do if enrollment fails or stops working
+- [Identities](identities) — what your device's identity actually is
+- [Policy](policy) — what the device can and can't reach, and why
+- [When things break](when-things-break) — what to do if enrollment fails or stops working

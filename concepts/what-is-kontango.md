@@ -1,3 +1,9 @@
+---
+title: "What Is Kontango?"
+parent: Concepts
+nav_order: 1
+---
+
 # What Is Kontango?
 
 ## The one-sentence version
@@ -57,6 +63,6 @@ Open source doesn't mean unsupported, and it doesn't mean free as in "no one eve
 
 ## Where to next
 
-- If you want to picture how this works as a network, read [The network](the-network.md).
-- If you're about to enroll a device, read [Enrolling a device](enrollment.md).
-- If you're wondering what's actually live, see [Services](services.md).
+- If you want to picture how this works as a network, read [The network](the-network).
+- If you're about to enroll a device, read [Enrolling a device](enrollment).
+- If you're wondering what's actually live, see [Services](services).

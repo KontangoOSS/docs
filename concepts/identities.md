@@ -1,3 +1,9 @@
+---
+title: "Identities"
+parent: Concepts
+nav_order: 4
+---
+
 # Identities
 
 ## What an identity is
@@ -35,7 +41,7 @@ Three pieces of information matter:
 | **Certificate** | A cryptographic file that proves the identity is yours | The passport itself |
 | **Roles (attributes)** | Tags like `#stage-2` or `#trusted` that decide what the identity can reach | Visa stamps showing which countries you're allowed in |
 
-The certificate is what does the actual proving. Roles are what gate access — they're the connection between an identity and a [policy](policy.md).
+The certificate is what does the actual proving. Roles are what gate access — they're the connection between an identity and a [policy](policy).
 
 ## The one thing not to worry about
 
@@ -56,10 +62,10 @@ A *service* is the thing your laptop **connects to** — the git server, when it
 
 The two concepts overlap in a fuzzy way for service hosts: the git host has an identity (proving it's the git host) and provides a service (git, at `git.tango`). For end users, that distinction usually doesn't matter — what matters is "your laptop = identity," "the thing you're trying to reach = service."
 
-See [Services](services.md) for the other side.
+See [Services](services) for the other side.
 
 ## Where to next
 
-- [Services](services.md) — what's available to connect to
-- [Policy](policy.md) — how roles decide what an identity can reach
-- [When things break](when-things-break.md) — symptoms when an identity goes wrong
+- [Services](services) — what's available to connect to
+- [Policy](policy) — how roles decide what an identity can reach
+- [When things break](when-things-break) — symptoms when an identity goes wrong
